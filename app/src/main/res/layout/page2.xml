@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#3067bf">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:src="@drawable/baseline_menu_24"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/logo_kemnaker_jpg"
+            android:layout_gravity="center"
+            android:layout_marginLeft="330dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:text="Pilih Kejuruan"
+            android:layout_gravity="center"
+            android:textSize="9pt"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TIK"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:backgroundTint="#3067bf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Elektronika"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:gravity="center"
+            android:backgroundTint="#3067bf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Pariwisata"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:backgroundTint="#3067bf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Refirgerator"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:backgroundTint="#3067bf"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Welding"
+            android:textColor="@color/white"
+            android:textSize="8pt"
+            android:textAllCaps="false"
+            android:gravity="center"
+            android:backgroundTint="#3067bf"/>
+
+    </LinearLayout>
+
+</LinearLayout>
